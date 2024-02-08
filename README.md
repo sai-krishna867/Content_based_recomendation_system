@@ -1,1 +1,8 @@
-# recomendation_system
+Description:
+The project aims to develop a content-based movie recommendation system leveraging natural language processing (NLP) techniques such as lemmatization and TF-IDF. This system assists users in discovering new movies based on their preferences and interests, enhancing their overall movie-watching experience.
+Key Features:
+Data Collection and Preprocessing: Movie data is gathered from TMDB database on Kaggle and preprocessed using Python and Pandas. This includes cleaning the data, handling missing values, and transforming textual features for NLP processing.
+Lemmatization: Lemmatization is employed to normalize the text data by reducing words to their base or dictionary form. This ensures consistency in the representation of words, improving the accuracy of the recommendation system.
+TF-IDF (Term Frequency-Inverse Document Frequency): TF-IDF is utilized to vectorize the textual features of movies. This technique assigns weights to words based on their frequency in a document (movie synopsis) relative to the entire corpus, capturing the importance of each word in describing the content of a movie.
+Similarity Calculation: Using the TF-IDF vectors, the similarity between movies based on their content is computed. This allows the identification of movies with similar themes, plots, or genres, enabling personalized recommendations tailored to the user's preferences.
+Streamlit Interface: An interactive web application is created using Streamlit, a Python library for building data-driven web apps. The user-friendly interface allows users to input their movie preferences, view recommended movies, and explore additional details such as movie posters, ratings, and synopses.
